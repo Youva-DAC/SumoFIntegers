@@ -15,11 +15,14 @@ public class SumOfThreeIntegers {
         System.out.print("Enter the third integer: ");
         int num3 = scanner.nextInt();
 
+        System.out.print("Enter the third integer: ");
+        int num4 = scanner.nextInt();
+
         // Calculate the sum of the three integers
         int sum = num1 + num2 + num3;
 
         // Display the result
-        System.out.println("The sum of " + num1 + ", " + num2 + ", and " + num3 + " is: " + sum);
+        System.out.println("The sum of " + num1 + ", " + num2 + ", and " + num3 + num4 +  " is: " + sum);
 
         // Close the scanner
         scanner.close();
